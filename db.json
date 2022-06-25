@@ -1,0 +1,38 @@
+{
+  "staffs": [
+    {
+      "id": 1,
+      "first": "Mark",
+      "last": "Otto",
+      "handle": "@mdo",
+      "teamId": 1
+    },
+    {
+      "id": 2,
+      "first": "Jacob",
+      "last": "Thornton",
+      "handle": "@fat",
+      "teamId": 2
+    },
+    {
+      "id": 3,
+      "first": "Larry the Bird",
+      "handle": "@twitter",
+      "teamId": 2
+    }
+  ],
+  "teams": [
+    {
+      "id": 1,
+      "class": "Primary"
+    },
+    {
+      "id": 2,
+      "class": "Secondary"
+    },
+    {
+      "id": 3,
+      "class": "Success"
+    }
+  ]
+}
