@@ -23,6 +23,9 @@ export interface ITeam {
 export class HomeComponent implements OnInit {
   public staffs: IStaff[] = [];
   public teams: ITeam[] = [];
+
+  public search: string | null = null;
+
   constructor(
     private staffService: StaffService,
     private teamService: TeamService
@@ -37,5 +40,9 @@ export class HomeComponent implements OnInit {
       this.teams = data;
       console.log(this.teams);
     });
+  }
+
+  onSubmit() {
+    console.log(this.search);
   }
 }
